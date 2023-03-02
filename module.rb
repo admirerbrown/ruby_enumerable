@@ -1,6 +1,7 @@
 module MyEnumerable
   def all?
     return true unless block_given?
+
     each { |i| return false unless yield i }
     true
   end
@@ -14,8 +15,7 @@ module MyEnumerable
 
   def filter
     array = []
-    each { |i| array.push(i) if yield(i)}
+    each { |i| array.push(i) if yield(i) }
     array
   end
-  
 end
