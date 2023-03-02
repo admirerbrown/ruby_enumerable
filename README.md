@@ -191,6 +191,6 @@ I would like to thank Microverse for providing us with reading materials that ai
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/admirerbrown/ruby_enumerable/blob/develop/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
